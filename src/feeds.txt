@@ -1,0 +1,7 @@
+https://itsfoss.com/feed/
+https://www.nasa.gov/rss/dyn/breaking_news.rss
+https://www.nasa.gov/rss/dyn/solar_system.rss
+https://www.nasa.gov/rss/dyn/earth.rss
+https://lifehacker.com/rss
+https://xkcd.com/rss.xml
+https://www.wired.com/feed

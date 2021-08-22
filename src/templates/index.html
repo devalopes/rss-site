@@ -1,0 +1,26 @@
+<!doctype html>
+<title>RSS Site Reader (rsr)</title>
+<h1>RSS Site Reader</h1>
+{% for feed in feeds %}
+{% if feed.site.img_link %}
+<a href={{feed.site.link}}>
+    <img src={{feed.site.img_link}} style="float:left;width:50px;height:50px;">
+</a>
+{% endif %}
+    <a href={{feed.link}}>
+    <h2>[{{feed.site.title}}] {{feed.title}}</h2>
+    </a><p style="float:right;">{{feed.published_str}}</p>
+    <h3>{{feed.summary}}</h3>
+{% if feed.content %}
+    <details>
+    <summary>Click to view story</summary>
+    {{feed.content | safe}}
+    <br>
+    </details>
+    <br>
+{% endif %}
+    <cite>{{feed.author}}</cite>
+    <br>
+    <br>
+{% endfor %}
+<!-- {{feeds}} -->
