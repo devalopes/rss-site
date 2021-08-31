@@ -5,3 +5,4 @@ https://www.nasa.gov/rss/dyn/earth.rss
 https://lifehacker.com/rss
 https://xkcd.com/rss.xml
 https://www.wired.com/feed
+https://www.anandtech.com/rss/
